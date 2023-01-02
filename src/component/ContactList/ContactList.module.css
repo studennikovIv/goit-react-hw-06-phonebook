@@ -1,0 +1,39 @@
+.contactList{
+  width: 100%;
+    list-style: none;
+    margin-top: 50px;
+}
+.contactList__li{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.contactList__li + .contactList__li{
+    margin-top: 25px;
+}
+.name{
+    font-size: 18px;
+    color:#2d545e ;
+    width: 85px;
+}
+.button{
+    width: 300px;
+    border: solid 1px #880808;
+    border-radius: 20px;
+    color: #880808;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(222, 222, 222, 0);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 10);
+    
+}
+.button:hover{
+    background-color:#EE4B2B;
+    border: none;
+   
+
+}
+.contact-left-box{
+    display: flex;
+    flex-direction: column;
+    
+}
